@@ -1,0 +1,22 @@
+#name{
+        font-family: 'Dancing Script', cursive;
+        font-size: 3rem;
+       }
+
+       body{
+        text-align: center;
+       }
+
+       #me{
+        height: 350px;
+        border: 10px solid indianred;
+        margin-top: 100px;
+       }
+
+       #czechflag{
+        margin-right: 100px;
+               }
+
+       #usflag{
+        margin-left: 100px; 
+       }
