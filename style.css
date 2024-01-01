@@ -44,32 +44,38 @@ h1{
 
     #me{
         position: relative;
-        bottom: 150px;
+        bottom: 300px;
+        text-align: center;
     }
     #czechflag{
         position: relative;
-        top:620px;
+        text-align: center;
+        top: 476px;px;
         right: 10px;
     }
 
     #usflag{
         position: relative;
-        bottom: 50px;
+        text-align: center;
+        bottom: 200px;
+
     }
 
     #name{
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
     position: relative;
-    bottom: 400px;
+    bottom: 550px;
+    text-align: center;
     }
 
     p{
         position: relative;
-        bottom: 270px;
+        bottom: 410px;
     }
 
     hr{
         display: none;
     }
 }
+
