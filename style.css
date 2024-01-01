@@ -18,10 +18,14 @@ body{
 
 #czechflag{
     margin-right: 100px;
+    position: relative;
+    margin-bottom: 115px;
     }
 
 #usflag{
     margin-left: 100px; 
+    position: relative;
+    margin-bottom: 115px;
     }
 
 h1{
