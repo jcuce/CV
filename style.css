@@ -12,8 +12,11 @@ body{
        }
 
 #me{
+    position: relative;
     height: 350px;    
     margin-top: 100px;
+    border-radius: 50%;
+    border: 10px solid go;
     }
 
 #czechflag{
@@ -31,4 +34,42 @@ body{
 h1{
     font-family: 'Lilita One', sans-serif;
     font-size: 2rem;
+}
+@media (max-width: 680px){
+    .html{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #me{
+        position: relative;
+        bottom: 150px;
+    }
+    #czechflag{
+        position: relative;
+        top:620px;
+        right: 10px;
+    }
+
+    #usflag{
+        position: relative;
+        bottom: 50px;
+    }
+
+    #name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    position: relative;
+    bottom: 400px;
+    }
+
+    p{
+        position: relative;
+        bottom: 270px;
+    }
+
+    hr{
+        display: none;
+    }
 }
