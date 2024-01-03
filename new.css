@@ -6,7 +6,7 @@ html{
 .background{
     background-color: #3D3B40;
     width: 450px;
-    height: 2500px;
+    height: 2459px;
     position: absolute;
     left: 0;
     top: 0;
@@ -147,6 +147,6 @@ h2{
 footer{
     color: white;
     z-index: 10;
-    margin-top: 0px;
+    margin-top: 1660px;
 }
 
