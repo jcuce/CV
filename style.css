@@ -5,35 +5,39 @@ html{
 #name{
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
+    color: white;
     }
 
 body{
+    background-color: #3D3B40;
     text-align: center;
-       }
+    }
 
 #me{
     position: relative;
     height: 350px;    
     margin-top: 100px;
     border-radius: 50%;
-    border: 10px solid go;
+    border: 10px solid white;
     }
 
 #czechflag{
     margin-right: 100px;
     position: relative;
     margin-bottom: 115px;
+    border-radius: 50%;
     }
 
 #usflag{
     margin-left: 100px; 
     position: relative;
     margin-bottom: 115px;
+    border-radius: 50%;
     }
 
 h1{
-    font-family: 'Lilita One', sans-serif;
     font-size: 2rem;
+    color: white;
 }
 @media (max-width: 680px){
     .html{
