@@ -1,0 +1,44 @@
+body{
+    background-color: #3D3B40;
+    font-size: 18px;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #3D3B40;
+    gap: 100px;
+
+}
+
+#CZ{
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+#eng{
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+#me{
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
