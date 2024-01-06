@@ -51,6 +51,14 @@ button{
     display: none;
 }
 
+#flag1{
+    display: none;
+}
+
+#flag2{
+    display: none;
+}
+
 @media (max-width: 680px) {
 
     h1{
@@ -64,6 +72,8 @@ button{
     #me{
         width: 250px;
         order: 0;
+        position: relative;
+        bottom: 150px;
     }
 
     #CZ{
@@ -76,15 +86,16 @@ button{
 
     footer{
         font-size: 10px;
+        position: relative;
+        bottom: 259px;
     }
 
     .phone{
         display: flex;
         justify-content: center;        
         position: relative;
-        bottom: 150px;
+        bottom: 295px;
         gap: 20px;
-        flex-basis: content;
     }
 
     #flag1{
