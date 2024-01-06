@@ -42,3 +42,59 @@ footer{
     text-align: center;
     color: white;
 }
+
+button{
+    display: none;
+}
+
+.phone{
+    display: none;
+}
+
+@media (max-width: 680px) {
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        flex-direction: column;        
+    }
+
+    #me{
+        width: 250px;
+        order: 0;
+    }
+
+    #CZ{
+        display: none;
+    }
+
+    #eng{
+        display: none;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+
+    .phone{
+        display: flex;
+        justify-content: center;        
+        position: relative;
+        bottom: 150px;
+        gap: 20px;
+        flex-basis: content;
+    }
+
+    #flag1{
+        border: 1px solid white;
+    }
+
+    #flag2{
+        border: 1px solid white;
+    }
+
+    
+    
+}
