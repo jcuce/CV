@@ -51,7 +51,7 @@ button{
     display: none;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 680px) and (min-width:376px){
 
     h1{
         font-size: 1.5rem;
@@ -96,8 +96,49 @@ button{
 
     #flag2{
         border: 1px solid white;
+    }    
+    
+}
+
+@media (max-width:375px){
+    h1{
+        font-size: 15px;
     }
 
-    
-    
+    #me{
+        width: 260px;
+        position: relative;
+        bottom: 150px;
+    }
+
+    #CZ{
+        display: none;
+    }
+
+    #eng{
+        display: none;
+    }
+
+    .phone{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 290px;
+        gap: 10px;
+    }
+
+    #flag1{
+        border: 1px solid white;
+    }
+
+    #flag2{
+        border: 1px solid white;
+    }
+
+    footer{
+        font-size: 10px;
+        position: relative;
+        bottom: 150px;
+    }
+
 }
